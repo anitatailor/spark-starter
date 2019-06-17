@@ -1,0 +1,1 @@
+/usr/lib/spark/bin/spark-submit --class spark.starter.app.MainDriver --master yarn --conf spark.executor.instances=1 --conf spark.executor.memory=2048M s3://lake/dev/v0.1/app-assembly-0.1.0-SNAPSHOT.jar --app-name example --start-time 2019-04-01 --end-time 2019-04-03
